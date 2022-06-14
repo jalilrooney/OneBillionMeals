@@ -1,0 +1,9 @@
+{
+  "response": "OK",
+  "chain": "rinkeby",
+  "contract_address": "0xdD0C18e4EF2e55ce3b94F30873Ae83f440A00942",
+  "transaction_hash": "0x13acd586f71e336dd3c6cb3893a1c65126f18341327c5daa33466d72f48903b0",
+  "transaction_external_url": "https://rinkeby.etherscan.io/tx/0x13acd586f71e336dd3c6cb3893a1c65126f18341327c5daa33466d72f48903b0",
+  "metadata_uri": "ipfs://bafkreigafudvuzg4b56u5s7pd2t663wzddiyqf27wvyy7q42e2ldvif6fy",
+  "mint_to_address": "0x1224454f4ed327d2849bca097506492a86b522d8"
+}

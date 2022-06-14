@@ -1,13 +1,341 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  color: white;
+  font-family: 'Poppins';
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: black;
 }
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  vertical-align: top;
+  padding-bottom: 25px;
+  background: black;
+}
+
+.rat-logo {
+  width: 203px;
+  height: 86px;
+  margin-top: 12px;
+  margin-right: 640px;
+}
+
+.header-btn {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  height: 80px;
+  line-height: 80px;
+  color: white;
+  padding-top: 15px;
+}
+
+.AuctionStatus {
+  width: 100%;
+  color: white;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.AuctionStatus > * {
+  display: inline-block;
+}
+
+.AuctionStatus > h1 {
+  margin-left: 21%;
+  font-weight: 500;
+  font-size: 36px;
+  margin-right: 40px;
+  background-color: transparent;
+}
+
+.AuctionStatus > h2 {
+  font-weight: 500;
+  font-size: 36px;
+  background-color: red;
+  border-radius: 60px;
+  width: 120px;
+  text-align: center;
+}
+
+.auctionCard {
+  color: white;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 90%;
+}
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+  background-color: transparent;
+} 
+.auctionImage {
+  width: 100%;
+  margin-top: 20px;
+  width: 60%;
+  border-radius: 12px;
+  background-color: transparent;
+  margin-left: 73%;
+}
+
+.card-body {
+  background-color: transparent;
+}
+
+.card-body > * {
+  margin-top: 10px;
+  margin-left: 300px;
+  background-color: transparent;
+}
+
+.auctionCard-title, .offer-card-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  background-color: transparent;
+}
+
+.auctionCard-text, .offer-card-text {
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: -50px;
+}
+
+.offer-card-text {
+  padding: 8px;
+}
+
+.amount-left-for-auction-end {
+  margin-top: 60px;
+}
+
+.contribute {
+  width: 445px;
+  height: 53px;
+  background-color: white;
+  border-radius: 60px;
+  display: flex;
+  padding-left: 5px;
+}
+
+.contribute-div {
+  background-color: transparent;
+}
+
+.BidAmount {
+  color: black;
+  border-radius: 60px;
+  border: none;
+  width:240px;
+  height: 53px;
+  background-color: transparent;
+  color: black;
+  border: none;
+  font-size: 22px;
+  margin-right: 20px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.BidAmount:focus{
+  outline: none;
+}
+
+.bidBtn{
+  width:180px;
+  height: 53px;
+  border-radius:60px;
+  border-color:rgb(252, 213, 53);
+  background-color:rgb(252, 213, 53);
+  font-size:18px;
+  font-weight:bold;
+  color:black;
+}
+
+.bidBtn:hover{
+  background-color:#ad9528;
+  color:white;
+  cursor: pointer;
+}
+
+.oneBillionMealsLogo {
+  width: 400px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+.transactionHash {
+  margin-top: 20px;
+}
+
+.auctionImage-div {
+  background-color: transparent;
+}
+
+.donations-container {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.Offers, .Offers > * {
+  background-color: white;
+  color:black;
+  /* width: 75%; */
+  /* margin-left: 12%;
+  margin-right: 12%; */
+  display: block;
+  margin: 0 auto;
+}
+
+.offers-header {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.ticket-offer {
+  text-align: left;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #546790;
+  margin-left: 280px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.partners {
+  padding-top: 80px;
+  text-align: center;
+}
+
+.offer-image {
+  width: 800px;
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto;
+}
+
+.offer-image-div {
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto;
+}
+
+.offer-card > * {
+  width: 100%;
+  background-color: white;
+  
+}
+
+.offer-card-body {
+  background-color: white;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgb(213, 209, 209);
+  border-radius: 12px;
+  padding-left: 10px;
+  height: 400px;
+  width: 350px;
+  display: block;
+  margin: 0 auto;
+  margin-left: -100px;
+}
+
+.offer-card-body > * {
+  margin-top: 10px;
+  background-color: white;
+  color: black;
+}
+
+.offer-card-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.contribute-btn {
+  width: 200px;
+  height: 50px;
+  left: 981px;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  border: none;
+  display: block;
+  margin: 0 auto;
+}
+
+.contribute-btn:hover{
+  background-color:rgb(252, 213, 53);
+  color:white;
+  cursor: pointer;
+}
+
+.partners-img{
+  display: block;
+  margin: 0 auto;
+}
+
+.confetti {
+  height: 300px;
+  width: 10px;
+  display: none;
+}
+
+.fractions-minting {
+  display:flex;
+  align-items: center;
+  display: none;
+  background-color: transparent;
+}
+
+.fractions-minting-spinner {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  background-color: transparent;
+}
+
+.donations-container {
+  height: 750px;
+  background-image: url(assets/oneBillionMealsCover.jpg);
+  background-size: cover;
+}
+
+.binanceLogo {
+  height: 75px;
+  border-radius: 12px;
+  margin-right: 50px;
+}
+
+.fractions-minting-header {
+  background-color: transparent;
+}
+
+/* .marketplace-url {
+  display: none;
+} */
+
+.amount-left-for-auction-end {
+  display: none;
+}
+
+.contribute-btn {
+  display: none;
+}
+
+.contribute-div {
+  display: none;
+}
+
+.auction-live {
+  display: none;
+}
+
+/*8888888888888888888888*/

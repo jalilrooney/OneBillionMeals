@@ -1,0 +1,1325 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,900&family=Viga&display=swap');
+a,
+body,
+div,
+input,
+p,
+small,
+span,
+strong {
+	font-family: 'Roboto', sans-serif;
+}
+
+.logo-img img {
+	width: 160px;
+	margin-left: 30px;
+}
+
+header nav {
+	margin-top: 0px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	transition: all 0.3s ease 0s;
+	color: #000;
+	font-weight: 700;
+	font-size: 15px;
+	margin: 7px 20px;
+}
+
+.nav-btn a {
+	/*min-width: 171px;*/
+	border-radius: 46px;
+	background-color: #8d1613;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	font-size: 14px;
+	overflow: hidden;
+	position: relative;
+	outline: none;
+	border: 0 none;
+	padding: 17px 30px;
+	font-weight: 900;
+}
+
+.nav-btn a:hover {
+	color: #fff;
+	text-decoration: none !important;
+	background-color: #000;
+}
+
+#home-page-header .nav-btn a:hover {
+    color: #fff;
+    text-decoration: none !important;
+    background-color: #EFBD5F;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+	color: #82acbe;
+}
+
+.rat-radio {
+	background: #fff;
+	border-radius: 50px;
+	padding: 10px 0px;
+	border: 1px solid #ddd;
+}
+
+.buy {
+	width: 30%;
+	font-weight: bold;
+	font-size: 20px;
+	height: auto;
+	border-radius: 50px;
+}
+.center{ text-align: center; }
+
+/*****************************  home ****************************/
+
+.subscribe-form-main-2 {
+	background-image: url(../images/cry.jpg);
+	padding: 0px 0px;
+	background-size: cover;
+}
+
+.subscribe-form-main-1 {
+	background-image: url(../images/home-bg.png);
+	padding: 0px 0px;
+	background-size: cover;
+}
+.white{ color: #fff; }
+
+
+ul#tokenIDS li a {
+	color: #8d1316 !important;
+}
+
+ul#final-tokenIDS li a {
+	color: #8d1316 !important;
+}
+
+.rate_img_right P {
+	font-size: 17px;
+}
+
+.modal-title {
+    margin: 0px 15px;
+     
+}
+
+#ethPrice{
+font-size:14px;
+font-weight: normal;
+}
+.mywallet {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 75% !important;
+}
+
+.mywallet .buy1,.mywallet .buy2{
+box-shadow: 4px 5px 8px -1px #999;
+flex: 1 1 200px;
+margin-right: 15px;
+}
+.mywallet .buy1:hover,.mywallet .buy2:hover{
+box-shadow: none;
+transition: 0.7s;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    color: #495057;
+    background-clip: padding-box;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+ul.pagination {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+ul.pagination li a.active {
+  background-color: #eee;
+  color: black;
+  border: 1px solid #ddd;
+}
+
+
+.buy,
+.buy1,
+.buy2 {
+	width: 230px;
+	font-weight: bold;
+	font-size: 17px;
+	height: 80px;
+	margin-top: 25px;
+	border-radius: 15px;
+	line-height: 20px;
+	color:#000;
+}
+
+.buy3 {
+	width: 150px;
+	font-weight: bold;
+	font-size: 17px;
+	height: 60px;
+	margin-top: 25px;
+	border-radius: 10px;
+	line-height: 18px
+}
+.buy3:hover {
+	background-color: #8d1613;
+	color: #fff;
+	border: none;
+	transition: 0.7s;
+}
+
+
+.buy6 {
+	width: 150px;
+	font-weight: bold;
+	font-size: 17px;
+	height: 60px;
+	margin-top: 25px;
+	border-radius: 10px;
+	line-height: 18px
+}
+.buy6:hover {
+	background-color: #8d1613;
+	color: #fff;
+	border: none;
+	transition: 0.7s;
+}
+
+.clear-btn {
+    width: 100%;
+    font-weight: normal;
+    font-size: 14px;
+    height: auto;
+    padding: 12px 0px;
+    margin-top: 0px;
+    border-radius: 6px;
+    line-height: 18px;
+	background-color: #fff;
+}
+
+.clear-btn:hover{
+background-color: #8d1613;
+color: #fff;
+border: 1px solid #8d1613;
+transition: 0.7s;
+}
+
+.mywallet a {
+	font-size: 16px;
+}
+
+.mywallet a:hover {
+	color: #fff;
+}
+
+.buy:hover,
+.buy1:hover,
+.buy2:hover {
+	background-color: #8d1613;
+	color: #fff;
+	border: none;
+	transition: 0.7s;
+}
+ 
+.midd_img {
+	text-align: center;
+	margin: 0px auto;
+	position: absolute;
+	right: 0;
+	left: 0;
+	width: 100px;
+	top: -35px;
+}
+
+.all {
+	font-size: 31px !important;
+}
+
+#home-page-header .ic_soc{
+color: #fff;
+}
+ 
+.ic_soc {
+	color: #000;
+	font-size: 22px !important;
+}
+
+.ic_soc:hover {
+	color: #8d1613;
+}
+
+.soc {
+	margin: 7px 5px !important;
+}
+
+.home_text {
+	font-size:15px !important;
+	top: -15px !important;
+}
+
+.rate_img_left img {
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 60px;
+	box-shadow: 2px 5px 10px #111;
+}
+
+
+/* .rate_img_left_user img {
+    width: auto;
+	height: auto;
+    border: 1px solid #ccc;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-radius: 60px;
+    box-shadow: 2px 5px 10px #111;
+    position: absolute;
+    left: 0;
+	right:0;
+	margin: 0px auto;
+    top: 49%;
+	text-align: center;
+	
+} */
+
+.rate_img_left_user img {
+	width: auto;
+	max-width: 340px;
+	height: auto;
+	border: 1px solid #ccc;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	border-radius: 10px;
+	box-shadow: 2px 5px 10px #555;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0px auto;
+	top: 49%;
+	text-align: center;
+	max-height: 300px;
+}
+
+.rate_img_left_user {
+	position: relative;
+	height: auto;
+	border-radius: 35px;
+	border: 2px solid #555;
+	background-color: #fff;
+	box-shadow: 2px 5px 6px #888;
+}
+
+.rate_img_left img:hover {
+	transition: 1s;
+	margin-top: -7px;
+}
+
+.rate_title {
+	font-size: 37px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.rate_img_right {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	min-height: 350px;
+}
+
+#recent-activity{
+margin-bottom: 20px;
+}
+.subscribe-title {
+	margin-top: 50px;
+}
+
+.foot {
+	text-align: center;
+	padding-top: 10px;
+	margin: 0px auto;
+	width: 100%;
+	bottom: 0;
+	padding:15px 0px 10px 0px;
+}
+
+.middle_sec {
+	margin-top: 50px;
+	min-height: 720px;
+}
+
+#ftco-nav ul {
+	float: right;
+	margin-right: 15px;
+	margin-top: 20px;
+}
+
+#ftco-nav ul li {
+	list-style: none;
+	padding-left: 10px;
+}
+
+.no-image-title {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.rate_img_center {
+	margin: 0px auto;
+	text-align: center;
+}
+
+.rate_img_center img {
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 60px;
+	max-width: 300px;
+}
+
+.see-nft {
+	width: 100%;
+	font-weight: bold;
+	font-size: 25px;
+	height: 80px;
+	margin-top: 25px;
+	border-radius: 15px;
+	color: #8d1613 !important;
+	text-decoration: underline;
+}
+
+.see-nft:hover {
+	color: #000 !important;
+}
+
+.see-nft-div {
+	text-align: center !important;
+}
+
+.currency-container {
+	display: flex;
+	width: 95%;
+	margin: 20px auto 20px auto;
+}
+
+.currency-container .input-group-prepend {
+	display: inline-flex;
+}
+
+.currency-container .input-group-prepend select {
+	width: 140px;
+	height: 45px;
+	border-radius: 8px;
+	box-shadow: 1px 1px 3px 1px #ccc !important;
+	font-size: 18px;
+	/* padding: 0px 10px; */
+	/* max-width: 120px; */
+	/* flex-grow: 1; */
+}
+
+.currency-input {
+	margin: 0px auto;
+	box-shadow: 1px 1px 3px 1px #ccc !important;
+	height: 45px;
+	font-size: 18px;
+	border-radius: 10px !important;
+	padding: 0px 10px !important;
+}
+
+.currency-container label {
+	margin-top: 10px;
+}
+
+.sell-popup-modal {
+	text-align: center;
+}
+
+#symbol-container img {
+	width: 60%;
+}
+
+.sell-close {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+}
+
+div#symbol-container {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.buy4 {
+	width: 30%;
+	font-weight: bold;
+	font-size: 17px;
+	height: 50px;
+	padding: 10px !important;
+	border-radius: 7px;
+	margin: 10px 0px 10px 0px;
+}
+
+.buy4:hover {
+	background-color: #8d1613;
+	color: #fff;
+	border: none;
+	transition: 0.7s;
+}
+
+.buy5 {
+	width: 65%;
+	font-weight: bold;
+	font-size: 17px;
+	height: 60px;
+	border-radius: 7px;
+	margin: 10px 0px 20px 0px;
+}
+
+.buy5:hover {
+	background-color: #8d1613;
+	color: #fff;
+	border: none;
+	transition: 0.7s;
+}
+
+nav.home-menu-wrapper {
+	float: right;
+	margin-right: 20px
+}
+
+ul#menu-main-menu {
+	display: inline-flex;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+ul#menu-main-menu li {
+	list-style: none;
+	padding: 0px 10px;
+	font-size: 20px;
+}
+
+.separator {
+	border-right: 2px solid #000;
+}
+
+#home-page-header ul#menu-main-menu li a{
+color: #fff;
+}
+#home-page-header .separator {
+	border-right: 2px solid #fff;
+}
+
+ul#menu-main-menu li a {
+	color: #000;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+ul#menu-main-menu li a:hover {
+	color: #8d1613;
+}
+
+.progressbar {
+	list-style: none;
+	line-height: 29px;
+	font-size: 18px;
+	margin: 0;
+	text-align: left;
+}
+
+.list-group-item-1,
+.list-group-item-2 {
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+	margin-bottom: -1px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+.progressbar li.list-group-item-1.active .fa {
+	color: green;
+}
+
+.progressbar li.list-group-item-2.active .fa {
+	color: green;
+}
+
+.checkout-row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.llt {
+	text-align: left;
+	flex-grow: 1;
+}
+
+.rrt {
+	text-align: right;
+	flex-grow: 1;
+}
+.products-detail:hover {
+    transform: translate(0, -8px);
+    box-shadow: 13px 17px 5px rgb(0 0 0 / 35%) !important;
+}
+
+/*User NFT List*/
+
+.purchase_nft_images {
+	padding-bottom: 30px;
+	text-align: center;
+	width: 100%;
+	margin: 0px auto;
+	display: flex;
+}
+
+.purchase_nft_images .col-md-3 {
+	margin: 0px auto;
+}
+
+.purchseNFT-product-box .mint-image img {
+	margin-top: 25px !important;
+	box-shadow: 2px 5px 5px #8d1617
+}
+
+.mint-image img {
+	border-radius: 15px;
+	min-height: 270px !important;
+	height: 270px !important;
+}
+
+.nft-title {
+	text-decoration: none;
+}
+
+i.fa.fa-check-circle.chx {
+	position: absolute;
+	right: 15px;
+	top: 20px;
+	font-size: 40px;
+	color: #000;
+}
+
+.nft-title a {
+	text-decoration: none;
+	color: #000;
+	font-size: 25px;
+}
+
+i.fa.fa-long-arrow-left.backarrow {
+	color: black;
+	font-size: 30px;
+}
+
+
+/*buy nft page*/
+
+.buy-image img {
+	border-radius: 10px 10px 0px 0px;
+	min-height: 270px;
+	height: 270px;
+}
+
+.buynft-box img {
+	width: 100%;
+}
+
+.row.buy-nft-bottom {
+	background: #fff;
+	border-radius: 0px 0px 15px 15px;
+}
+
+.buy-nft-bottom img {
+	min-height: auto !important;
+	height: auto !important;
+	width: 16px !important;
+	margin-top: 0px !important;
+	padding: 0px 5px 0px 0px;
+}
+
+h6.sale-price {
+	display: inline-flex;
+}
+
+span.price-label {
+	font-size: 12px;
+}
+
+.buy-nft-bottom h6 {
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: 0px;
+}
+
+/*
+.buynft-box {
+	box-shadow: 2px 5px 5px #8d1617;
+	border-radius: 10px;
+}
+*/
+.buynft-box {
+    box-shadow: 0px 1px 9px 2px gold;
+    border-radius: 15px;
+}
+span.sort-by {
+    color: #fff;
+}
+
+.error {
+	color: red;
+}
+
+.row.buy-nft-title {
+	background: #fff;
+	border-top: 1px solid #ddd;
+}
+
+.buy-nft-title h6 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.buyNFT-product-box {
+	margin: 0px 0px 30px 0px;
+}
+
+.buy-nft-wrapper, .purchase_nft_images {
+	display: inherit !important;
+	flex-wrap: inherit !important;
+}
+
+.delete-msg {
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 25px;
+	margin: 15px 0px 15px 15px;
+}
+
+.diamond img {
+	vertical-align: top !important;
+	width: 11px;
+}
+
+#search {
+	border: 1px solid #eee;
+}
+
+.currency-wrapper input[type=checkbox],
+input[type=radio] {
+	margin: 0px 10px;
+	height: 15px;
+	margin-top: 1px\9;
+	line-height: normal;
+	-ms-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+.currency-wrapper .rat-radio {
+	flex-grow: 1;
+	align-items: center;
+	width: 30%;
+	justify-content: center;
+	display: flex;
+	margin: 0px;
+}
+
+.radio-select {
+	width: 40%;
+	flex-grow: 1;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+
+.radio-select select {
+	padding: 10px;
+	border-radius: 7px;
+	border: 1px solid #ddd;
+	margin-left: 5px;
+}
+
+.currency-wrapper .rat-radio span {
+	padding-right: 7px;
+}
+
+.currency-wrapper {
+	font-size: 16px;
+	display: flex;
+}
+
+.pagination-wrapper {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.currency-wrapper.rat-radio {
+	flex-grow: 1;
+}
+
+.rat-radio label {
+	font-size: 15px;
+	font-weight: normal;
+	margin-bottom: 0px;
+	margin-right: 10px;
+	margin-left: 0px;
+}
+
+.buy-nft-bottom .col-md-7 {
+	flex-grow: 1;
+}
+
+.buy-nft-bottom .col-md-7 h6 {
+	text-align: left;
+}
+
+.buy-nft-bottom .col-md-5 h6 {
+	text-align: right;
+	float: right;
+	justify-content: center;
+	align-items: center;
+}
+
+.searchbar {
+	margin-bottom: auto;
+	margin-top: auto;
+	height: 45px;
+	border-radius: 30px;
+	padding: 0px !important;
+}
+
+.section-title {
+	text-align: center;
+	font-weight: bold;
+	font-size: 52px;
+	margin-top: 50px;
+}
+
+.search-gallery {
+	padding: 0px !important;
+}
+
+.gallery-search-box {
+	display: -webkit-box;
+	padding: 0px;
+}
+.tab_new {
+    margin-bottom: 20px;
+    max-height: 300px;
+    height:100%;
+    overflow: auto;
+     
+}
+.text-left {
+        box-shadow: 2px 2px 6px #aaa;
+}
+.text-left thead{
+background-color: #ddd;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 10px 8px 10px 20px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+.rate_img_right h3{
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 25px;
+}
+.owner-section{
+    font-size: 17px;
+    color: #8d1613;
+}
+
+.purchase_nft_images h2{
+font-size:20px !important;
+}
+
+.page-title{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #8d1613;
+    text-shadow: 1px 3px 2px #999;
+}
+.entry-content p span{font-size:16px !important;}
+.entry-content ul li span{font-size:16px !important;} 
+.entry-content ul li {font-size:16px !important;} 
+.entry-content p {font-size:16px !important;}
+.entry-content ul{ margin-left:0px; }
+footer {
+    padding: 30px 20px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+ul#menu-footer-menu {
+    display: inline-flex;
+    margin: 0px auto;
+    padding: 0px;
+}
+ul#menu-footer-menu li {
+    list-style: none;
+    padding: 0px 10px;
+}
+ul#menu-footer-menu li a {
+    color: #000;
+}
+
+
+.footer-white ul#menu-footer-menu li a{
+color: #fff;
+}
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.foot .row{
+    justify-content: center;
+    align-items: center;
+}
+
+#amt-error{
+    text-align: left;
+    padding-top: 4px;
+    padding-left: 5px;
+    color: red;
+    position: absolute;
+    font-size:12px;
+}
+#amt-input{ width:100%; }
+.btnDisabled {
+    /* opacity: 0.65;  */
+    /* cursor: not-allowed; */
+	pointer-events: none;
+  }
+  
+  .bd_radious{
+	border-radius: 0 !important;
+  }  
+
+@media (max-width: 1200px) {
+	.rate_img_left_user img {
+		max-width: 290px;
+	}
+	.buy1 {
+		line-height: 18px;
+	}
+	.rat-radio label {
+		font-size: 14px;
+		font-weight: normal;
+		margin-bottom: 0px;
+	}
+	.currency-wrapper {
+		font-size: 14px;
+		align-items: center;
+		padding: 0px !important;
+	}
+	.currency-wrapper input[type=checkbox],
+	input[type=radio] {
+		margin: 0px 7px;
+		height: 15px;
+		margin-top: 1px\9;
+		line-height: normal;
+		-ms-transform: scale(1.2);
+		-webkit-transform: scale(1.2);
+		transform: scale(1.2);
+	}
+}
+
+@media (max-width: 1024px) {
+	.mywallet {
+	    width: 90% !important;
+	}
+	.radio-select select {
+		margin-left: 15px;
+	}
+	span.price-label {
+		font-size: 11px;
+	}
+}
+@media (max-width: 991px) {
+	/* .rate_img_left{max-width:100%; flex: 0 0 100%;} */
+	.rate_img_left {
+		position: relative;
+		height: 400px;
+		border-radius: 35px;
+		border: 2px solid #555;
+		background: rgba(255, 255, 255, 0.5);
+		box-shadow: 2px 5px 6px #888;
+		max-width: 100%;
+		flex: 0 0 100%;
+	}
+	.rate_img_right {
+		max-width: 100%;
+		flex: 0 0 100%;
+	}
+	.col-md-5.home-left-section.rate_img_left {
+		height: auto;
+		padding: 25px;
+	}
+	.mywallet,
+	.myaccount,
+	.connectButton {
+		flex: 100%;
+	}
+	.mint-image img {
+		border-radius: 15px;
+		min-height: 100% !important;
+		width: 100%;
+	}
+	.buy-image img {
+		min-height: 100% !important;
+		width: 100%;
+	}
+	.currency-wrapper {
+		font-size: 14px;
+		align-items: center;
+		float: right;
+		margin-top: 15px;
+		padding: 0px !important;
+	}
+	.gallery-search-box {
+		display: inherit !important;
+	}
+	.currency-wrapper .rat-radio {
+		flex-grow: 1;
+		align-items: center;
+		justify-content: center;
+		display: flex;
+		margin-right: 25px;
+		padding: 10px;
+		width: 50%;
+	}
+	.currency-wrapper {
+		font-size: 14px;
+		align-items: center;
+		padding: 22px !important;
+		width: 250px;
+	}
+	.gallery-search-box {
+		display: inline-block;
+		width: 100%;
+	}
+	.clear_btn_main
+	{
+	display: flex;
+	align-items: center;
+	padding: 20px !important;
+	justify-content: center;
+	width: 200px;
+	margin-top: 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	.logo-img img {
+	    width: 160px !important;
+	}
+
+	#first-btn-wrapper {
+		display: inherit;
+	}
+	#ftco-nav ul {
+		display: inline-flex;
+	}
+	.buy4 {
+		width: auto;
+	}
+	.buy5 {
+		width: auto;
+	}
+	.purchase_nft_images {
+		padding-bottom: 30px;
+		text-align: center;
+		width: 100%;
+		margin: 0px auto;
+		display: inherit;
+	}
+	.logo-img img {
+		width: 100px;
+		margin-left: 30px;
+	}
+	nav.home-menu-wrapper {
+		margin-top: 45px;
+		text-align: center;
+		float: none;
+		margin-right: 0px;
+	}
+	.gallery-search-main {
+		padding: 0px 20px !important;
+		margin-top: 30px;
+	}
+	.clear_btn_main, .currency-wrapper{
+		width: 100%;
+	}
+	.currency-wrapper {
+		padding: 15px;
+	}
+}
+
+@media (max-width: 570px) {
+	.soc {
+		display: none;
+	}
+	.home_text {
+		display: none;
+	}
+	.home-menu-wrapper {
+		display: block;
+	}
+	.middle_sec {
+		margin-top: 0px !important;
+	}
+	.clear_btn_main {
+	display: flex;
+	align-items: center;
+	padding: 20px !important;
+	justify-content: center;
+	width: 100%;
+	margin-top: 0px;
+	}
+
+	.currency-wrapper {
+	font-size: 14px;
+	align-items: center;
+	float: none;
+	padding: 15px !important;
+	}
+
+	.currency-wrapper .rat-radio {
+	flex-grow: 1;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	margin: 0px;
+	padding: 10px;
+	width: 50%;
+	}
+
+	
+	
+}
+
+@media (max-width: 480px) {
+	.sort-by {
+		display: none;
+	}
+	.gallery-search-box .col-md-4 {
+		display: block;
+	}
+	.radio-select {
+	float: right;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	}
+
+
+	.currency-wrapper .rat-radio {
+	flex-grow: 1;
+	align-items: right;
+	justify-content: left;
+	display: flex;
+	margin-right: 0px;
+	margin-top: 0px;
+	width: 40%;
+	padding-right: 0;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	}
+	.gallery-search-box .col-md-4 {
+		display: block !important;
+	}
+	
+	.subscribe-form-main-2 {
+		padding: 20px 0px 0px 0px !important;
+	}
+	.navbar-brand {
+		padding: 0px;
+	}
+	.logo-img img {
+		margin-left: 15px;
+	}
+	.nav-btn a {
+		line-height: 10px !important;
+		margin-top: 9px;
+	}
+	.navbar {
+		margin-bottom: 0px;
+	}
+	.gallery-search-main {
+		padding: 0px 20px 10px !important;
+	}
+	.currency-wrapper {
+		margin-top: 0px auto !important;
+		padding:0px !important;
+		float:none;
+	}
+	.gallery-search-box .col-md-4 {
+		display: flex !important;
+		padding: 0px !important;
+		justify-content: center;
+		float: none;
+	}
+	.gallery-search-main .col-md-12 .col-md-8,
+	.searchbar {
+		padding: 0px !important;
+	}
+	.gallery-search-main .col-md-12 {
+		padding: 0px 7px !important;
+	}
+	.gallery-grid-main {
+		padding: 20px 0px;
+	}
+	
+	.clear_btn_main, .search_main
+	{
+	padding:0px;
+	}
+	.clear_btn_main
+	{
+	width: 100%;
+	padding: 0px !important;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	}
+	.mywallet {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 90% !important;
+	margin: 0px auto;
+	}
+
+	.mywallet .buy1,.mywallet .buy2{
+		width: 100%;
+		box-shadow: 4px 5px 8px -1px #999;
+	}
+	.mywallet .buy2{
+	    margin-left: 0px;
+	 }
+	
+	.mywallet .buy1:hover,.mywallet .buy2:hover{
+	box-shadow: none;
+	transition: 0.7s;
+	}
+	.connectButton .buy{ width:100% !important;}
+	
+	.buy5 {
+	width: 100%;
+	}
+
+	.radio-select select {
+		width: 100%;
+		padding: 14px 10px;
+			margin-left: 0px;
+	  }
+	  .rat-radio label, .radio-select select
+	  {
+		  font-size: 14px;
+	  }
+
+}
+
+@media (max-width: 375px) {
+	.buy1 {
+		font-size: 16px;
+	}
+	.gallery-grid-main {
+		padding: 0px !important;
+	}
+	.rate_img_left_user img {
+		max-width: 240px;
+	}
+	.gallery-search-main {
+		padding: 0px 0px 20px !important;
+	}
+	.radio-select {
+		text-align: right;
+	}
+	.navbar {
+		display: flex;
+	}
+	#ftco-nav ul {
+		margin-right: 5px;
+	}
+	
+	.rat-radio label {
+	font-size: 15px;
+	font-weight: normal;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	}
+
+
+
+}
+
+@media (max-width: 320px) {
+
+
+	.currency-wrapper input[type=checkbox], input[type=radio] {
+	margin: 0px 5px;
+	height: 15px;
+	margin-top: 1px\9;
+	line-height: normal;
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	}
+	.currency-wrapper {
+	font-size: 14px;
+	align-items: center;
+	padding: 0px !important;
+	}
+
+	.currency-wrapper .rat-radio {
+	flex-grow: 1;
+	align-items: right;
+	justify-content: left;
+	display: flex;
+	margin-right: 0px;
+	margin-top: 0px;
+	width: 35%;
+	padding-right: 0;
+	padding-left: 3px;
+	margin-bottom: 10px;
+	}
+	.rat-radio label, .radio-select select
+	{
+	font-size: 14px;
+	}
+}
